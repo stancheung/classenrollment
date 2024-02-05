@@ -21,7 +21,7 @@ And this would be a great start for my journey to maybe becoming a Web Dev in th
 - Enroll new classes
 - Cancel enrollments
 
-  ### Server Side
-  - Manage Customers
-  - Update class list
-  - Manage Enrollments
+### Server Side
+- Manage Customers
+- Update class list
+- Manage Enrollments
