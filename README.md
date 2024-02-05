@@ -6,3 +6,8 @@ I needed to chat with customers on WhatsApp, ask for their info, type the info o
 I planned to work in the IT industry instead so I quit my job at the climbing gym. 
 Before I left, I thought it would be a good idea to try making a Class Enrollment System that handles customers profiles, classes available, enrollments records etc. 
 And this would be a great start for my journey to maybe becoming a Web Dev in the future.
+
+
+# Built With
+- Django
+- Bootstrap
