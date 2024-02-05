@@ -11,3 +11,17 @@ And this would be a great start for my journey to maybe becoming a Web Dev in th
 # Built With
 - Django
 - Bootstrap
+
+# Usage
+## The features of the system include:
+### Client Side
+- New customers sign-up
+- Customers login & out
+- Update customers information
+- Enroll new classes
+- Cancel enrollments
+
+  ### Server Side
+  - Manage Customers
+  - Update class list
+  - Manage Enrollments
