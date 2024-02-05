@@ -1,0 +1,39 @@
+{% extends "users/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}    
+<div class="container profile-container">
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <fieldset class="form-group profile-form">
+            <legend class="mb-4">Enroll</legend>
+            {{ form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline text-light" type="submit">Enroll</button>
+        </div> 
+    </form>
+</div>
+{% endblock content %}
+
+<!--
+<div class="container enroll-container">
+    {% csrf_token %}
+    <form id="enrollment-form" method="GET" action="{% url 'Enrollment Page' %}" enctype="multipart/form-data">
+        <label for="class-date">Select a Date:</label>
+        <input type="date" id="class-date" name="class_date" required>
+        <button type="submit">Show Classes</button>
+    </form>
+
+    {% if classes %}
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            {{ form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline text-light" type="submit">Enroll</button>
+        </div> 
+    </form>
+    {% endif %}
+</div>
+-->

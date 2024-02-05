@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Uchiyama';
+    src: url(uchiyama.otf);
+}
+
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url(Barlow-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Barlow-SemiBold';
+    src: url(Barlow-SemiBold.otf);
+}
+
+@font-face {
+    font-family: 'Barlow-Regular';
+    src: url(Barlow-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Barlow-Medium';
+    src: url(Barlow-Medium.otf);
+}
+
+html, body {
+    height: 100%;
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+.row{
+    height: 100%;
+}
+
+.intro-section{
+    background-color: #B5A179;
+}
+
+.intro-title{
+    font-family: 'Barlow-Bold';
+}
+
+.login-wrapper{
+    margin: auto;
+    width: 40%;
+    position: relative;
+    top: 30%;
+    margin: auto;
+}
+
+.login-title{
+    font-family: 'Barlow-SemiBold';
+}
+
+.form-group{
+    font-family: 'Barlow-Regular';
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.login-form-group{
+    font-family: 'Barlow-Regular';
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-top: 2rem;
+}
+
+.login-btn{
+    font-family: 'Barlow-Regular';
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+label{
+    color: #063650;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid #e4e6eb;
+    border-radius: 0;
+}
+
+.form-control:focus{
+    border-color: #063650;;
+    box-shadow: none;
+}
+
+legend{
+    font-family: 'Barlow-SemiBold';
+    font-size: 2.5rem;
+    color: #063650;
+}
+
+.list-group{
+    color: #063650;
+}
+
+.list-group-item{
+    color: #063650;
+}
+
+.brand-wrapper, .intro-content-wrapper{
+    margin: auto;
+    width: 70%;
+    position: relative;
+    top: 40%;
+    color: #063650;
+}
+
+.brand-wrapper-content{
+    font-family: 'Uchiyama';
+    color: #063650;
+    font-size: 5rem;
+}
+
+.navbar{
+    background-color: #063650;
+    color: #B5A179;
+}
+
+.nav-item{
+    font-family: 'Barlow-Regular';
+    margin-bottom: 1px;
+    padding: 1px;
+}
+
+.navbar-brand{
+    font-family: 'Uchiyama';
+}
+
+.reg-container{
+    top: 5%;
+    position: relative;
+}
+
+.reg-form-group{
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.reg-body{
+    background: #063650;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.btn-outline{
+    background-color: #B5A179;
+}
+
+.nav-btn{
+    font-family: 'Uchiyama';
+    background-color: transparent;
+    color: white;
+    padding: 1px;
+    transform-origin: center;
+}
+
+.nav-btn:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.alert{
+    font-family: 'Barlow-SemiBold';
+    text-align: center;
+}
+
+.profile-container, .record-container, .enroll-container{
+    margin-top: 1%;
+    width: 50%;
+}
